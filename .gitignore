@@ -32,7 +32,8 @@ atlassian*
 /.php_cs
 /.php_cs.cache
 /grunt-config.json
-/pub/media/*.*
+#/pub/media/*.*
+#/pub/media/*
 !/pub/media/.htaccess
 /pub/media/attribute/*
 !/pub/media/attribute/.htaccess
@@ -52,18 +53,18 @@ atlassian*
 /pub/media/theme/*
 /pub/media/theme_customization/*
 !/pub/media/theme_customization/.htaccess
-/pub/media/wysiwyg/*
+#/pub/media/wysiwyg/*
 !/pub/media/wysiwyg/.htaccess
 /pub/media/tmp/*
 !/pub/media/tmp/.htaccess
 /pub/media/captcha/*
-/pub/static/*
+#/pub/static/*
 !/pub/static/.htaccess
 
 /var/*
 !/var/.htaccess
 /vendor/*
 !/vendor/.htaccess
-/generated/*
+#/generated/*
 !/generated/.htaccess
 .DS_Store
